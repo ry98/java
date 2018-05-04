@@ -1,0 +1,40 @@
+Describe the lifecycle of an object instance in Java and how garbage collection works
+- instatiated by new where memory is allocated, constructor is called
+- once an object is unreachable it is destroyed from memory
+Describe how the basic data types are represented in memory (boolean, int, long, String, array of ints, array of Objects, class with fields)
+- boolean represented by 1 bit, 0=false, 1=true
+- int 32 bit signed two's complement integer
+- long 64 bit two's complement integer
+- String-stored as an object with an array of chars(16 bit unicode character) of a fixed size
+- array of ints- holds fixed number of ints
+- array of objects-memory is allocated for a fixed number of objects with a certain data size
+- class with fields-stored on the heap
+Write an application to find out how many total characters can be held in a list of strings before you run out of memory
+- can't use the same string in the list
+Compare and contrast StringBuffer and StringBuilder and when to use each
+-string buffer is thread safe while stringbuilder is not (makes it faster)
+-use string buffer is a string will be changed by multiple threads, string builder if it will only be one thread
+Compare/contrast use of ArrayList / LinkedList / HashMap / HashSet / TreeSet
+- ArrayList
+    - ordered, faster get and set
+    -resizable array
+- LinkedList
+    - faster add and remove
+- HashMap
+    - key-value pairs
+     - not synchronized
+     - no insertion order
+     - fast
+- HashSet
+    - no duplicates
+    - not synchronized
+    - no insertion order
+    - fast
+    -constant time
+- TreeSet
+    - no duplicates
+    -log (n) time
+    - sorts in ascending order
+Write your own enum type.  Describe when you would use it.
+- enum direction { NORTH,SOUTH,EAST,WEST }
+- only allows the variable of type direction to be set to these constants
