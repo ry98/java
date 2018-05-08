@@ -1,0 +1,14 @@
+{"timestamp":"2018-05-08 15:13:35,674","logger":"Main","level":"INFO","thread":"main","message":"Hello World","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:13:35,680","logger":"Main","level":"INFO","thread":"main","message":"x=0","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:13:35,680","logger":"Main","level":"WARN","thread":"main","message":"dividing by x","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:13:35,680","logger":"Main","level":"ERROR","thread":"main","message":"Division by zero!","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:15:10,966","logger":"Main","level":"INFO","thread":"main","message":"Hello World","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:15:10,972","logger":"Main","level":"INFO","thread":"main","message":"x=0","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:15:10,972","logger":"Main","level":"WARN","thread":"main","message":"dividing by x","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:15:10,973","logger":"Main","level":"ERROR","thread":"main","message":"Division by zero!","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:15:10,973","logger":"Main","level":"DEBUG","thread":"main","message":"adding 2","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:16:29,805","logger":"Main","level":"INFO","thread":"main","message":"Hello World","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:16:29,811","logger":"Main","level":"INFO","thread":"main","message":"x=0","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:16:29,812","logger":"Main","level":"WARN","thread":"main","message":"dividing by x","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:16:29,812","logger":"Main","level":"ERROR","thread":"main","message":"Division by zero!","json_message":null,"method":"main"}
+{"timestamp":"2018-05-08 15:16:29,812","logger":"Main","level":"DEBUG","thread":"main","message":"adding 2","json_message":null,"method":"main"}
