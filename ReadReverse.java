@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.util.*;
 
 public class ReadReverse {
 
@@ -20,7 +21,11 @@ static String FILEIN="test.txt";
             {
              strings[i]=br.readLine();
             }
-            for(int i=9999;i>=0;i--)
+            //SORTED ORDER
+            Arrays.sort(strings);
+            //REVERSE SORTED ORDER
+            //Arrays.sort(strings,Collections.reverseOrder());
+            for(int i=0;i<10000;i++)
             {
              writer.write(strings[i]);
              writer.newLine();
